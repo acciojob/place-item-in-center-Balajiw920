@@ -1,8 +1,5 @@
 .holder {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  display: flex; /* enables flexbox layout */
+  justify-content: center; /* centers items horizontally */
+  align-items: center; /* centers items vertically */
 }
-
-/* Your CSS Code here. */
