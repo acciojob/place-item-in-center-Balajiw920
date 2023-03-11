@@ -1,5 +1,14 @@
+/* Apply flexbox properties to the holder element */
 .holder {
-  display: flex; /* enables flexbox layout */
-  justify-content: center; /* centers items horizontally */
-  align-items: center; /* centers items vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set height to fill viewport */
+}
+
+/* Style item-1 */
+.item-1 {
+  background-color: #f1c40f;
+  color: #ffffff;
+  padding: 20px;
 }
